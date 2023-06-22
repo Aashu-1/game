@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- As a heading -->
+    <nav class="navbar bg-danger">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 text-white">Guess Number Game</span>
+      </div>
+    </nav>
+
+    <h3 style="text-align: center; margin-top: 12px">
+      <u> Write any number between 0 to 20</u>
+    </h3>
+
+    <center>
+      <form method="post" id="form">
+        <input
+          style="text-align: center"
+          type="text"
+          name="nmbr"
+          id="txt"
+          placeholder="Enter a number"
+        /><br /><br />
+        <button type="button" class="btn btn-danger" id="btn">
+          Submit here
+        </button>
+      </form>
+      <br />
+      <div style="border: 2px solid black" id="borderResult">
+        <h5 id="count" style="color: black"></h5>
+
+        <h1 id="head"></h1>
+        <h2 id="head2"></h2>
+        <h3 id="head3"></h3>
+        <img
+          width="10%"
+          height="10%"
+          style="display: none"
+          id="win"
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanBxYzIya2tsMTVmOXRwMjZkanlyNTYzZ2x5cXd5ZHIxa29sbnhvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i7NLlLUaaG9u8/giphy.gif"
+          alt=""
+        />
+        <img
+          style="display: none"
+          width="10%"
+          height="10%"
+          id="lost"
+          src="try-again-keegan-michael-key.gif"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </center>
+
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="object.js"></script> -->
+    <!-- <script src="nestedarr.js"></script> -->
+    <!-- <script src="functions.js"></script> -->
+    <!-- <script src="string.js"></script> -->
+    <script src="arrPractice.js"></script>
+  </body>
+</html>

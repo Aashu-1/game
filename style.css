@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Balthazar", serif;
+}
+#form input {
+  margin-top: 12px;
+  color: black;
+  min-width: 50vw;
+}
+#form button {
+  margin-bottom: 12px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  min-width: 35vw;
+  justify-content: center;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+#borderResult {
+  display: none;
+}
+
+img {
+  margin: 10px;
+}
+
+#home {
+  background-color: rgb(119, 86, 86);
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home #homeCon {
+  background-color: azure;
+  color: rgb(93, 51, 51);
+  padding: 20px;
+  min-width: 50vw;
+}
+
+#home #btn {
+  background-color: rgb(61, 48, 23);
+  color: white;
+  float: right;
+}
